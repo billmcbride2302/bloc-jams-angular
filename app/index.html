@@ -13,12 +13,30 @@
      <link rel="stylesheet" type="text/css" href="styles/player_bar.css">
  </head>
 <body> 
+      <ui-view></ui-view>
      {{ 2 + 2 }}
 
 
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+<script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
 <script src="scripts/app.js"></script>
+    
+<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDxC9XHnwtlJ4FHSB4ISLzT5Cb8sW3MoQo",
+    authDomain: "bloc-jams-9eabd.firebaseapp.com",
+    databaseURL: "https://bloc-jams-9eabd.firebaseio.com",
+    projectId: "bloc-jams-9eabd",
+    storageBucket: "bloc-jams-9eabd.appspot.com",
+    messagingSenderId: "156032284699"
+  };
+  firebase.initializeApp(config);
+</script>
+    
  </body>
 </html> 
