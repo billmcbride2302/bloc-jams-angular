@@ -46,7 +46,12 @@ body.landing {
  
  .point .point-title {
      font-size: 1.25rem;
+     color: black; 
  }
+
+.point-description {
+    color: black; 
+}
  
  .ion-music-note,
  .ion-radio-waves,
