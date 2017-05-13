@@ -35,7 +35,7 @@
             currentSong = song;
         };
         
-        +        /**
+         /**
          * @function playSong
          * @desc Plays the currentBuzzObject and sets the property of the song Object to true
          * @param {Object} song
