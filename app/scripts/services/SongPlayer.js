@@ -143,6 +143,7 @@
                 playSong(song);
             }
         };
+        
         /**
         * @function next
         * @desc Set song to next song in album
